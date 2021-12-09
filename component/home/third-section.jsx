@@ -25,6 +25,7 @@ function ThirdSection() {
 
   return (
     <Sections className={"relative bg-base-300 overflow-hidden"}>
+      <div className={"hidden md:block h-[120vh]"} />
       <div
         className={"md:absolute flex flex-col " +
         "md:top-1/2 md:left-1/2 transform md:-translate-x-1/2 md:-translate-y-1/2 " +
@@ -46,7 +47,7 @@ function ThirdSection() {
             return (
               <a
                 href={entry.href}
-                className={"flex flex-col mt-11 items-center group"}
+                className={"flex flex-col mt-11 items-center group z-60 text-center"}
               >
                 <div className={"text-8xl mb-6 group-hover:text-primary transition-all"}>
                   {entry.icon}
@@ -59,7 +60,7 @@ function ThirdSection() {
           })}
         </div>
       </div>
-      <div className={"block absolute -bottom-12 -right-12"}>
+      <div className={"absolute -bottom-12 -right-12 z-0"}>
         <CircleIcon height={"200"} active={active}/>
         <button
           className={"absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 text-primary-focus"}

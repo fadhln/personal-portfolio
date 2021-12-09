@@ -5,10 +5,10 @@ function Sections(props) {
   return (
     <section
       className={"snap-scroll-section " +
-        "w-screen min-h-screen " +
+        "max-w-screen min-h-screen " +
         props.className}
     >
-      <div className={"container mx-auto"}>
+      <div className={"mx-auto"}>
         {props.children}
       </div>
     </section>

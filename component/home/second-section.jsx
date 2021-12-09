@@ -35,12 +35,12 @@ function SecondSection() {
         >
           <div
             data-aos={"fade-right"}
-            className={"z-40"}
+            className={"flex flex-col-reverse md:flex-col z-40"}
           >
-            <h1 className={"font-display font-bold text-6xl"}>
+            <h1 className={"mt-12 md:mt-0 font-display font-bold text-6xl"}>
               a bit about me ...
             </h1>
-            <ReactMarkdown className={"mt-12"}>
+            <ReactMarkdown className={"md:mt-12 "}>
               {aboutMe}
             </ReactMarkdown>
           </div>
@@ -52,7 +52,7 @@ function SecondSection() {
           <AvatarIcon active={active} height={"230"}/>
         </div>
       </div>
-      <div className={"absolute z-0 -left-3 -bottom-24 block md:hidden mt-12"}>
+      <div className={"absolute z-0 -right-6 -bottom-24 block md:hidden mt-12"}>
         <AvatarIcon active={active} height={"200"}/>
       </div>
       <button
