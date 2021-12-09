@@ -37,10 +37,10 @@ function SecondSection() {
             data-aos={"fade-right"}
             className={"flex flex-col-reverse md:flex-col z-40"}
           >
-            <h1 className={"mt-12 md:mt-0 font-display font-bold text-6xl"}>
+            <h1 className={"mt-6 md:mt-0 font-display font-bold text-6xl"}>
               a bit about me ...
             </h1>
-            <ReactMarkdown className={"md:mt-12 "}>
+            <ReactMarkdown className={"md:mt-12 about-me"}>
               {aboutMe}
             </ReactMarkdown>
           </div>

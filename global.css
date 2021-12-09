@@ -22,6 +22,11 @@
     @apply font-bold text-primary-focus underline hover:text-base-content transition-all
 }
 
+/*About me*/
+.about-me > p {
+    @apply mt-3;
+}
+
 /*Name Icon*/
 svg .name-icon-1 {
     stroke-dashoffset: 601px;
