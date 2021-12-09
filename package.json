@@ -6,9 +6,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
+    "aos": "^2.3.4",
+    "file-loader": "^6.2.0",
     "next": "latest",
+    "raw-loader": "^4.0.2",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-intersection-observer": "^8.32.5",
+    "react-markdown": "^7.1.1",
+    "tailwindcss-scroll-snap": "^1.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
