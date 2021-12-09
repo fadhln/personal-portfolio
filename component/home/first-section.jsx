@@ -40,7 +40,7 @@ function FirstSection(props) {
           <NameIcon active={active} height={"55"}/>
         </div>
         <div
-          data-aos={"fade-left"}
+          data-aos={"fade-up"}
           data-aos-delay={"1600"}
           data-aos-duration={"800"}
         >
